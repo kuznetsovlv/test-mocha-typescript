@@ -1,0 +1,44 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  position: fixed;
+}
+
+#slider-place {
+  position: absolute;
+  width: 500px;
+  height: 2px;
+  margin: auto;
+  padding: 9px 0;
+}
+
+#wrapper,
+#slider-place {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.lead {
+  border: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 1px;
+}
+
+.slider {
+  cursor: pointer;
+  height: 20px;
+  width: 0;
+  border: none;
+  border-left: 2px solid #00f;
+  border-right: 2px solid #00f;
+  border-radius: 2px;
+}
